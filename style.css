@@ -1,0 +1,163 @@
+body {
+  font-family: arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  min-width: 1080px;
+}
+
+header {
+  margin-left: auto;
+  display: flex;
+  margin-top: 16px;
+  padding: 0 15px 0 30px;
+}
+
+#header-list {
+  margin-left: auto;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-buttons {
+  margin-right: 16px;
+}
+
+.header-buttons a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-buttons a:hover {
+  text-decoration: underline;
+}
+
+#image-button {
+  background-image: url("//ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  background-size: 528px 68px;
+  background-position: -132px -38px;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: none;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#image-button:hover {
+  opacity: 1;
+}
+
+#login-button {
+  color: white;
+  background-color: #4f4b4b;
+  font-weight: bold;
+  border: 1px solid #4f4b4b;
+  padding: 0 12px;
+}
+
+#google-pic {
+  width: 100%;
+  text-align: center;
+  margin-top: 120px;
+  height: 120px;
+}
+
+#search-bar {
+  border-radius: 30px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  text-align: center;
+  width: 582px;
+  margin: 0 auto;
+  align-items: center;
+
+}
+
+#search-bar-text {
+  width: 550px;
+  height: 40px;
+  border: none;
+  font-size: medium;
+  outline: none;
+}
+
+#search-bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+#under-search-bar{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#under-search-bar input{
+  margin: 0 5px;
+  background-color: #e8e5e5;
+  border: none;
+  padding: 10px;
+}
+
+#under-search-bar input:hover{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+#under-search-bar a{
+  text-decoration:none;
+}
+
+#under-search-bar a:hover{
+  text-decoration: underline;
+}
+
+footer{
+  border-top: 1px solid #E4E4E4;
+  background-color: #F2F2F2;
+  margin: 0;
+  padding: 10px 0 10px 20px;
+
+
+}
+
+#footer-container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#footer-lower{
+  display: flex;
+  height: 80px
+}
+
+#footer-lower ul{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+#footer-lower a{
+  margin-right: 18px
+}
+
+#left-side{
+  margin-right: auto;
+}
+
+#right-side{
+  margin-left: auto;
+  margin-right: 30px;
+}
